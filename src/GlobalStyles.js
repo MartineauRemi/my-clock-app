@@ -20,6 +20,17 @@ const GlobalStyles = createGlobalStyle`
         //font-weights
         --fw-regular: 400;
         --fw-bold: 700;
+
+        //paddings and margins
+        --widget-padding: 2rem 1.5rem 0rem 1.5rem;
+        
+        @media screen and (min-width: 768px){
+            --widget-padding: 5rem 4rem 0 4rem;
+        }
+
+        @media screen and (min-width: 1440px){
+            --widget-padding: 3.5rem 10rem 0 10rem;
+        }
     }
 
     p{
